@@ -47,7 +47,7 @@
                     </execution>
                     <execution>
                         <id>report</id>
-                        <phase>verify</phase>
+                        <phase>prepare-package</phase>
                         <goals>
                             <goal>report</goal>
                         </goals>
@@ -65,7 +65,7 @@
                             <element>BUNDLE</element>
                             <limits>
                                 <limit>
-                                    <counter>INSTRUCTION</counter>
+                                    <counter>LINE</counter>
                                     <value>COVEREDRATIO</value>
                                     <minimum>100%</minimum>
                                 </limit>
